@@ -1,5 +1,5 @@
 
-class Solution {
+public class One {
     public static String compareNM(int n, int m) {
         // code here
         if (n < m) {
