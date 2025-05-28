@@ -1,6 +1,5 @@
 public class two {
-    static void printHelloWorld() {
-        // code here
+    static void printHelloWorld(String[] args) {
         System.out.println("Hello World");
     }
 }
