@@ -1,16 +1,16 @@
-//Factorial of a number
+//To count digits in a number
 import java.util.Scanner;
-public class one {
+
+public class one{
     public static void main(String[] args) {
-        int n,i,fact=1;
+        int n, i,count=0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number : ");
         n = sc.nextInt();
-        for (i = 1; i <= n; i++) {
-            fact *= i;
+        while (n > 0) {
+            count++;
+            n /= 10;
         }
-        System.out.println("Factorial is : "+fact);
-        sc.close();
+        System.out.println(count);
     }
-
 }
